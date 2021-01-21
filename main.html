@@ -10,7 +10,7 @@
     var playerScore = 0;
     var computerScore = 0;
     var playerSelection;
-    var computerSelection = computerPlay();
+    var computerSelection;
 
     function computerPlay(){
         var moves = ["rock", "paper", "scissors"]
@@ -21,7 +21,9 @@
 function playRound(playerSelection, computerSelection){
 
     var playerSelection = window.prompt("Rock, paper, or scissors?")
-
+    
+    var computerSelection = computerPlay();
+    
     if(playerSelection.toLowerCase() == computerSelection){
         console.log("You both picked " + computerSelection + ". It's a draw!");
     }
