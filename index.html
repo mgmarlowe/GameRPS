@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rock, Paper, Scissors</title>
+    <meta charset="UTF-8"/>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header class="header">
+        <h1 class="title" id="title">Rock, Paper, Scissors</h1>
+    </header>
+    <main>
+        <div class="scoreboard">
+            <h2 id="scoreboard-heading">Score</h2>
+            <div class="score-section">
+                <div class="player-section">
+                    <p class="scores" id="player-score">Player: 0</p>
+                    <p class="picked" id="player-choice">You chose: <img class="RPS" id="play-choice-img" src="RPSpng/paper.png"></p>
+                </div>
+                <div class="computer-section">
+                    <p class="scores" id="computer-score">Computer: 0</p>
+                    <p class="picked" id="computer-choice">Computer chose: <img class="RPS" id="comp-choice-img" src="RPSpng/rock.png"> </p>
+                </div>
+            </div>
+        </div>
+        <div class="choices">
+            <button type="button" ><img id="rock" class="RPS" src="RPSpng/rock.png"></button>
+            <button type="button"><img id="paper" class="RPS" src="RPSpng/paper.png"></button>
+            <button type="button"><img id="scissors" class="RPS" src="RPSpng/scissors.png"></button>
+        </div>
+</main>
+</body>
+<script src="script2.js"  ></script> <!--leave this here or nothing will work-->
+</html>

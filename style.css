@@ -1,0 +1,45 @@
+
+body {
+    background-color:rgb(34, 66, 155);
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    color: lightgray;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#scoreboard-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.score-section{
+    display: flex;
+    justify-content: space-evenly;
+}  
+
+.scores {
+    margin: 70px;
+}
+
+.picked {
+    margin: 70px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 70px;
+    padding: 10px;
+}
+
+.RPS {
+    height: 8em;
+}
+
