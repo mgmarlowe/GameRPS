@@ -16,11 +16,11 @@ const buttons = document.querySelectorAll('button');
         gameOver();
 
         function updateChoice(playerSelection, computerSelection){
-           //const playerChoiceText = document.getElementById("player-choice");
-           //const computerChoiceText = document.getElementById("computer-choice");
+           const playerChoiceText = document.getElementById("player-choice");
+           const computerChoiceText = document.getElementById("computer-choice");
 
-           //playerChoiceText.textContent = "You chose: " + playerSelection;
-           //computerChoiceText.textContent = "Computer chose: " + computerSelection;
+           playerChoiceText.textContent = "You chose: " + playerSelection;
+           computerChoiceText.textContent = "Computer chose: " + computerSelection;
             
         }
 
