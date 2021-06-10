@@ -1,5 +1,4 @@
-Started: January 20, 2021
-Ended: v.1 January 21, 2020
+v.1 January 21, 2020
 
 
 # GameRPS
