@@ -4,6 +4,8 @@ v.1 January 21, 2020
 # GameRPS
 A quick game of Rock, Paper, Scissors. For The Odin Project assignment.
 
+[Live Demo!](https://mgmarlowe.github.io/GameRPS/)
+
 
 What I learned:
  - Writing out code on paper helps the ultimate readibility of the code. Not to mention helps me to not feel overwhelmed by the blank screen.
